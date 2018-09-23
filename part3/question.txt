@@ -1,0 +1,9 @@
+1.
+setTimeout(콜백, 0)
+저번 스터디에서 가장 먼저 실행시키기 위해서 사용한다고 했는데 책에서는 비추천.
+실무에서는 setInterval을 많이 쓰는가 setTimeout을 많이 쓰는가...
+webStorm에서는 setImmediate와 비교 결과 setTimeout이 더 빠름.
+
+2.
+프로세서 아키텍처 arm, ia32는 무엇인가???
+
