@@ -5,52 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5419f51-8b83-49d2-866e-bfc55fcc4323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/part3/question.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.3/func.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.3/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.3/var.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.1/globalA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.1/globalB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.2/console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.3/timer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.4/filename.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.5/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.5/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.6/exit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.6/nextTick.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.4.6/process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.1/os.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.2/path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.3/searchParams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.3/url.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.4/querystring.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.5/cipher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.5/hash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.5/pbkdf2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.5.6/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.1/async.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.1/asyncOrder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.1/readme2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.1/sync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.2/buffer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.2/createReadStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.2/createWrite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.2/gzip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.2/pipe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.2/readme3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.2/readme4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.3/copyFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6.3/fsDelete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6/readFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.6/writeFile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.7/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.8/error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.8/error2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/3.8/error3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/part3-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/part3-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/question.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.1/createServer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.1/server1-0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.1/server1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.1/server2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.1/server2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.2/server3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.2/server4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part4/src/4.2/server4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,35 +29,40 @@
     <session id="-2126626949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="51" />
+          <entry key="html" value="2" />
+          <entry key="js" value="57" />
           <entry key="part3-2" value="1" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="50" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="HTML" value="2" />
+          <entry key="JavaScript" value="56" />
+          <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="10934" />
+          <entry key="html" value="34" />
+          <entry key="js" value="12445" />
           <entry key="part3-2" value="111" />
-          <entry key="txt" value="333" />
+          <entry key="txt" value="411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="11045" />
-          <entry key="PLAIN_TEXT" value="333" />
+          <entry key="HTML" value="35" />
+          <entry key="JavaScript" value="12555" />
+          <entry key="PLAIN_TEXT" value="411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -103,85 +72,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.6.2/gzip.js">
+        <entry file="file://$PROJECT_DIR$/part4/src/4.1/createServer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="76">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js">
+        <entry file="file://$PROJECT_DIR$/part4/src/4.1/server1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="38">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="4" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsDelete.js">
+        <entry file="file://$PROJECT_DIR$/part4/src/4.1/server1-0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="228">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/copyFile.js">
+        <entry file="file://$PROJECT_DIR$/part4/src/4.1/server2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="209">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/writeme4.txt">
+        <entry file="file://$PROJECT_DIR$/part4/src/4.1/server2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part4/src/4.2/server3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part4/src/4.2/server4.html">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.7/event.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.8/error.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.8/error2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.8/error3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/part4/src/4.2/server4.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part3/src/3.6.2/writeme3.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/part4/question.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -199,13 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/part3/src/var.js" />
-        <option value="$PROJECT_DIR$/part3/src/func.js" />
-        <option value="$PROJECT_DIR$/part3/src/index.js" />
-        <option value="$PROJECT_DIR$/part3/src/part3-4-1.js" />
-        <option value="$PROJECT_DIR$/part3/src/globalA.js" />
-        <option value="$PROJECT_DIR$/part3/src/globalB.js" />
-        <option value="$PROJECT_DIR$/part3/src/3.4.2/console.js" />
         <option value="$PROJECT_DIR$/part3/src/3.4.3/timer.js" />
         <option value="$PROJECT_DIR$/part3/src/3.4.4/filename.js" />
         <option value="$PROJECT_DIR$/part3/src/3.3/func.js" />
@@ -250,6 +203,13 @@
         <option value="$PROJECT_DIR$/part3/src/3.8/error.js" />
         <option value="$PROJECT_DIR$/part3/src/3.8/error2.js" />
         <option value="$PROJECT_DIR$/part3/src/3.8/error3.js" />
+        <option value="$PROJECT_DIR$/part4/src/4.1/createServer.js" />
+        <option value="$PROJECT_DIR$/part4/src/4.1/server1.js" />
+        <option value="$PROJECT_DIR$/part4/src/4.1/server1-0.js" />
+        <option value="$PROJECT_DIR$/part4/src/4.1/server2.html" />
+        <option value="$PROJECT_DIR$/part4/src/4.1/server2.js" />
+        <option value="$PROJECT_DIR$/part4/question.txt" />
+        <option value="$PROJECT_DIR$/part4/src/4.2/server3.js" />
       </list>
     </option>
   </component>
@@ -260,8 +220,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="820" />
-    <option name="height" value="620" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="816" />
+    <option name="height" value="616" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -271,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,26 +244,32 @@
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part3" type="462c0819:PsiDirectoryNode" />
+              <item name="part4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part3" type="462c0819:PsiDirectoryNode" />
+              <item name="part4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part3" type="462c0819:PsiDirectoryNode" />
+              <item name="part4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="3.8" type="462c0819:PsiDirectoryNode" />
+              <item name="4.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="4.2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,36 +298,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.error3.js">
-    <configuration name="copyFile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="copyFile.js" working-dir="$PROJECT_DIR$/part3/src/3.6.3">
-      <method v="2" />
-    </configuration>
-    <configuration name="error2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="error2.js" working-dir="$PROJECT_DIR$/part3/src/3.8">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.server3.js">
     <configuration name="error3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="error3.js" working-dir="$PROJECT_DIR$/part3/src/3.8">
       <method v="2" />
     </configuration>
-    <configuration name="error.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="error.js" working-dir="$PROJECT_DIR$/part3/src/3.8">
+    <configuration name="server1-0.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server1-0.js" working-dir="$PROJECT_DIR$/part4/src/4.1">
       <method v="2" />
     </configuration>
-    <configuration name="event.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="event.js" working-dir="$PROJECT_DIR$/part3/src/3.7">
+    <configuration name="server1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server1.js" working-dir="$PROJECT_DIR$/part4/src/4.1">
+      <method v="2" />
+    </configuration>
+    <configuration name="server2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server2.js" working-dir="$PROJECT_DIR$/part4/src/4.1">
+      <method v="2" />
+    </configuration>
+    <configuration name="server3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server3.js" working-dir="$PROJECT_DIR$/part4/src/4.2">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.copyFile.js" />
-      <item itemvalue="Node.js.event.js" />
-      <item itemvalue="Node.js.error.js" />
-      <item itemvalue="Node.js.error2.js" />
       <item itemvalue="Node.js.error3.js" />
+      <item itemvalue="Node.js.server1.js" />
+      <item itemvalue="Node.js.server1-0.js" />
+      <item itemvalue="Node.js.server2.js" />
+      <item itemvalue="Node.js.server3.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.server3.js" />
+        <item itemvalue="Node.js.server2.js" />
+        <item itemvalue="Node.js.server1-0.js" />
+        <item itemvalue="Node.js.server1.js" />
         <item itemvalue="Node.js.error3.js" />
-        <item itemvalue="Node.js.error2.js" />
-        <item itemvalue="Node.js.error.js" />
-        <item itemvalue="Node.js.event.js" />
-        <item itemvalue="Node.js.copyFile.js" />
       </list>
     </recent_temporary>
   </component>
@@ -373,15 +342,17 @@
       <option name="presentableId" value="Default" />
       <updated>1537613799387</updated>
       <workItem from="1537613800934" duration="9541000" />
-      <workItem from="1537667650688" duration="19831000" />
+      <workItem from="1537667650688" duration="29125000" />
+      <workItem from="1537790077835" duration="6310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29372000" />
+    <option name="totallyTimeSpent" value="44976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19125395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -389,7 +360,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21517672" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -408,58 +379,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/part4/src/4.2/server3.js</url>
+          <line>13</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part3/src/3.3/var.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.4.1/globalA.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.4.1/globalB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.4.2/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.4.5/output.js" />
-    <entry file="file://$PROJECT_DIR$/part3/src/3.4.5/value.js" />
-    <entry file="file://$PROJECT_DIR$/part3/src/3.3/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.4.4/filename.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.4.5/module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part3/src/3.4.6/process.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -502,9 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.5.2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/part3/src/3.5.2.js" />
     <entry file="file://$PROJECT_DIR$/part3/src/3.5.1/os.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -671,9 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/folder/newfile.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/folder/newfile.js" />
     <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -725,6 +652,61 @@
           <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.1/createServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.1/server1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.1/server1-0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.1/server2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.1/server2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/question.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.2/server3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.2/server4.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.2/server4.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

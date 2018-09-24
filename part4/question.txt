@@ -1,0 +1,3 @@
+server3.js
+parseCookies 함수 해석 필요
+.map(([k, ...vs]) => 부분부터 이해 불가...
