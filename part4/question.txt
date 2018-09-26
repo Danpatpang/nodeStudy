@@ -1,3 +1,9 @@
 server3.js
 parseCookies 함수 해석 필요
 .map(([k, ...vs]) => 부분부터 이해 불가...
+
+4.3
+REST API put, petch의 차이
+
+4.3
+restServer.js === 를 쓰는 이유
