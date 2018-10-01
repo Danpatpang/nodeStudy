@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5419f51-8b83-49d2-866e-bfc55fcc4323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/part4/src/4.2/server5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.3/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.3/restFront.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.3/restFront.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.3/restFront.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.3/restServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.4/server1-1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.4/server1-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part4/src/4.5/cluster.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part4/question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/part4/question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part4/src/4.2/server4.html" beforeDir="false" afterPath="$PROJECT_DIR$/part4/src/4.2/server4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part4/src/4.2/server4.js" beforeDir="false" afterPath="$PROJECT_DIR$/part4/src/4.2/server4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,17 +21,20 @@
     <session id="-2126626949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="6" />
-          <entry key="js" value="65" />
+          <entry key="html" value="8" />
+          <entry key="js" value="69" />
           <entry key="part3-2" value="1" />
           <entry key="rnc" value="1" />
           <entry key="ts" value="2" />
@@ -52,8 +44,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="6" />
-          <entry key="JavaScript" value="64" />
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="68" />
           <entry key="PLAIN_TEXT" value="15" />
           <entry key="RNG Compact" value="1" />
           <entry key="TypeScript" value="2" />
@@ -62,8 +54,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="35" />
-          <entry key="html" value="424" />
-          <entry key="js" value="18812" />
+          <entry key="html" value="541" />
+          <entry key="js" value="19144" />
           <entry key="part3-2" value="111" />
           <entry key="txt" value="477" />
         </counts>
@@ -71,8 +63,8 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="35" />
-          <entry key="HTML" value="425" />
-          <entry key="JavaScript" value="18922" />
+          <entry key="HTML" value="542" />
+          <entry key="JavaScript" value="19254" />
           <entry key="PLAIN_TEXT" value="477" />
         </counts>
       </usages-collector>
@@ -83,19 +75,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part4/src/4.3/restFront.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/part4/src/4.3/restFront.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="1216">
+              <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -104,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/part4/src/4.4/server1-1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="2" lean-forward="true" selection-end-line="15" selection-end-column="2" />
+              <caret line="15" column="2" selection-end-line="15" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -139,8 +122,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part4/src/4.3/restServer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+            <state relative-caret-position="228">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/copyFile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="8" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="39" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsDelete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -169,9 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/part3/src/3.4.6/nextTick.js" />
-        <option value="$PROJECT_DIR$/part3/src/3.4.6/exit.js" />
-        <option value="$PROJECT_DIR$/part3/src/3.5.1/os.js" />
         <option value="$PROJECT_DIR$/part3/src/3.5.2.js" />
         <option value="$PROJECT_DIR$/part3/src/3.5.2/path.js" />
         <option value="$PROJECT_DIR$/part3/src/3.5.3/searchParams.js" />
@@ -195,7 +202,6 @@
         <option value="$PROJECT_DIR$/part3/src/3.6.2/readme4.txt" />
         <option value="$PROJECT_DIR$/part3/src/3.6.2/pipe.js" />
         <option value="$PROJECT_DIR$/part3/src/3.6.2/gzip.js" />
-        <option value="$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js" />
         <option value="$PROJECT_DIR$/part3/src/3.6.3/fsDelete.js" />
         <option value="$PROJECT_DIR$/part3/src/3.6.3/copyFile.js" />
         <option value="$PROJECT_DIR$/part3/src/3.7/event.js" />
@@ -220,6 +226,10 @@
         <option value="$PROJECT_DIR$/part4/question.txt" />
         <option value="$PROJECT_DIR$/part4/src/4.3/restServer.js" />
         <option value="$PROJECT_DIR$/part4/src/4.3/restFront.js" />
+        <option value="$PROJECT_DIR$/part4/src/form.html" />
+        <option value="$PROJECT_DIR$/part4/src/test.html" />
+        <option value="$PROJECT_DIR$/part4/src/server.js" />
+        <option value="$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js" />
       </list>
     </option>
   </component>
@@ -229,11 +239,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="816" />
-    <option name="height" value="616" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -254,6 +263,17 @@
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
               <item name="part4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,41 +281,6 @@
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
               <item name="part4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="4.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="4.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="4.3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="4.4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="4.5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.restServer.js">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="restFront.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/nodeStudy/part4/src/4.3/restFront.html">
       <method v="2" />
     </configuration>
@@ -342,23 +327,23 @@
     <configuration name="restServer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="restServer.js" working-dir="$PROJECT_DIR$/part4/src/4.3">
       <method v="2" />
     </configuration>
-    <configuration name="server5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server5.js" working-dir="$PROJECT_DIR$/part4/src/4.2">
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/part4/src">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.server5.js" />
       <item itemvalue="JavaScript Debug.restFront.html" />
       <item itemvalue="Node.js.restFront.js" />
       <item itemvalue="Node.js.restServer.js" />
       <item itemvalue="Node.js.cluster.js" />
+      <item itemvalue="Node.js.server.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.restServer.js" />
         <item itemvalue="Node.js.restFront.js" />
         <item itemvalue="Node.js.cluster.js" />
         <item itemvalue="JavaScript Debug.restFront.html" />
-        <item itemvalue="Node.js.server5.js" />
       </list>
     </recent_temporary>
   </component>
@@ -374,23 +359,26 @@
       <updated>1537613799387</updated>
       <workItem from="1537613800934" duration="9541000" />
       <workItem from="1537667650688" duration="29125000" />
-      <workItem from="1537790077835" duration="27422000" />
+      <workItem from="1537790077835" duration="28651000" />
+      <workItem from="1538215860915" duration="644000" />
+      <workItem from="1538319030744" duration="18000" />
+      <workItem from="1538398868672" duration="2311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66088000" />
+    <option name="totallyTimeSpent" value="70290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19125395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20405982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21517672" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21517672" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,27 +410,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part3/src/3.5.4/querystring.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.5.5/hash.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.5.5/pbkdf2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part3/src/3.5.5/cipher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -561,27 +528,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/folder/newfile.js" />
-    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsDelete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/copyFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/writeme4.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -704,17 +650,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part4/src/4.3/about.html">
+    <entry file="file://$PROJECT_DIR$/part4/src/server.js" />
+    <entry file="file://$PROJECT_DIR$/part4/src/test.html" />
+    <entry file="file://$PROJECT_DIR$/part4/src/form.html" />
+    <entry file="file://$PROJECT_DIR$/part4/src/4.3/restFront.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="1216">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part4/src/4.4/server1-1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="2" lean-forward="true" selection-end-line="15" selection-end-column="2" />
+          <caret line="15" column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4/src/4.5/cluster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -725,10 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part4/src/4.5/cluster.js">
+    <entry file="file://$PROJECT_DIR$/part4/src/4.3/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="342">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -741,15 +697,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/part4/src/4.3/restServer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="66" column="32" lean-forward="true" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+        <state relative-caret-position="228">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part4/src/4.3/restFront.js">
+    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/copyFile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="114">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsDelete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>
