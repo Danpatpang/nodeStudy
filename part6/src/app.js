@@ -32,11 +32,8 @@ app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use(`/test`, testRouter);
-
 // session&flash
+// router보다 밑에 있으면 실행 안됨.
 app.use(session({
     resave: false,
     saveUninitialized: false,
@@ -47,6 +44,11 @@ app.use(session({
     },
 }));
 app.use(flash());
+
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
+app.use(`/test`, testRouter);
+
 
 
 // catch 404 and forward to error handler
