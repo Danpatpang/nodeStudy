@@ -1,20 +1,23 @@
-- var node = 'by'
-- var js = 'jscript'
-html
-    head
-        title= title
-        link(res='stylesheet', href='/stylesheets/style.css')
+//- 1번 위치 변수 선언 에러
+//- - var node = 'by'
+//- - var js = 'jscript'
 
-    body
-        include header
-        div#login-button
-        | ho
-        p.testing.full
-        | hihi
-        | #{node}
-        | #{js}
-    ul
-        each item in [`1`, `2`, `3`]
-            if(item % 2 == 1)
-                li= item
-    include footer
+
+extends layout
+//- 2번 위치 변수 선언, include, 다른 태그 사용시 에러
+//- - var node = 'by'
+//- - var js = 'jscript'
+//- include header
+//- p
+//- | 2번 위치 테스트입니다.
+
+block content
+    p
+    |테스트입니다.
+
+
+//- 3번 위치 변수 선언, include, 다른 태그 사용시 에러
+//- 단, 코드가 block 안에 들여쓰기로 속할 경우 정상 작동
+//- var node = 'by'
+//- - var js = 'jscript'
+//- include footer
