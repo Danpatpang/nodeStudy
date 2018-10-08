@@ -16,4 +16,7 @@ router.get(`/`, function(req, res) {
     res.render(`index`, {title: `Express`});
 });
 
+router.get(`/call`, function(req, res){
+    res.render('test', {title: "express"});
+})
 module.exports = router;

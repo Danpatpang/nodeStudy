@@ -153,15 +153,12 @@ Client -> 요청 -> 미들웨어 (-> 요청 -> Server -> 응답 -> 미들웨어)
 `app.use()`는 여러 개의 미들웨어를 인자로 한 번에 넣어 선언해도 상관없지만 가독성을 위해 따로 선언하는 것이 좋다.
 
 ### 미들 웨어의 종류
-* morgan :
-* body-parser :
-* cookie-parser :
-* static :
-* express-session :
-* connect-flash :
-
-### 기타 명령어
-
-### 서버 개발에 추가로 자주 사용되는 패키지
+* morgan : 콘솔에 로그 출력(HTTP 요청, 주소, HTTP 상태코드, 응닶 속도, 응답 바이트)  
+(인자로 dev, short, common, combined 등을 사용할 수 있다.)
+* body-parser : 요청의 본문을 해석(FORM, AJAX 요청의 데이터 처리)
+* cookie-parser : 동봉된 쿠키 해석
+* static : 정적인 파일 제공(body-parser와 함께 express에 내장된 객체)
+* express-session : 세션 관리용
+* connect-flash : 일회성 메시지를 웹 브라우저에 보냄
 
 ___

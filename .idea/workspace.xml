@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5419f51-8b83-49d2-866e-bfc55fcc4323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/part6/src/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part6/src/routes/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part6/src/views/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part6/src/views/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part6/src/views/test.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/part6/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part6/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/part6/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part6/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/part6/src/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part6/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/part6/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part6/src/routes/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/part6/src/routes/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part6/src/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/part6/src/routes/users.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,13 +47,13 @@
         <counts>
           <entry key="MD" value="3" />
           <entry key="css" value="3" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="html" value="9" />
-          <entry key="js" value="75" />
+          <entry key="js" value="76" />
           <entry key="json" value="4" />
-          <entry key="md" value="3" />
+          <entry key="md" value="5" />
           <entry key="part3-2" value="1" />
-          <entry key="pug" value="3" />
+          <entry key="pug" value="8" />
           <entry key="rnc" value="1" />
           <entry key="ts" value="2" />
           <entry key="txt" value="16" />
@@ -60,10 +65,10 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="9" />
           <entry key="JSON" value="4" />
-          <entry key="Jade" value="3" />
-          <entry key="JavaScript" value="75" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Jade" value="8" />
+          <entry key="JavaScript" value="76" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="22" />
           <entry key="RNG Compact" value="1" />
           <entry key="TypeScript" value="2" />
         </counts>
@@ -74,10 +79,10 @@
           <entry key="css" value="35" />
           <entry key="gitignore" value="12" />
           <entry key="html" value="543" />
-          <entry key="js" value="19858" />
-          <entry key="md" value="2992" />
+          <entry key="js" value="20478" />
+          <entry key="md" value="3227" />
           <entry key="part3-2" value="111" />
-          <entry key="pug" value="1" />
+          <entry key="pug" value="482" />
           <entry key="txt" value="477" />
         </counts>
       </usages-collector>
@@ -86,9 +91,9 @@
           <entry key="CSS" value="35" />
           <entry key="HTML" value="548" />
           <entry key="JSON" value="2" />
-          <entry key="Jade" value="1" />
-          <entry key="JavaScript" value="19976" />
-          <entry key="Markdown" value="5995" />
+          <entry key="Jade" value="482" />
+          <entry key="JavaScript" value="20596" />
+          <entry key="Markdown" value="6230" />
           <entry key="PLAIN_TEXT" value="536" />
         </counts>
       </usages-collector>
@@ -98,29 +103,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part6/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="754">
+                <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part6/src/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part6/src/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part6/src/bin/www">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state relative-caret-position="440">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -128,24 +127,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part6/src/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="403">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part6/src/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/part6/src/views/test.pug">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part6/src/views/header.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="44">
+              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part6/src/views/layout.pug">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part6/src/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -158,10 +175,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part6/src/routes/users.js">
+        <entry file="file://$PROJECT_DIR$/part6/src/views/footer.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -170,14 +187,9 @@
         <entry file="file://$PROJECT_DIR$/part6/src/routes/test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part6/src/views/error.pug">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -195,9 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/part3/src/3.5.6/readme.txt" />
-        <option value="$PROJECT_DIR$/part3/src/3.6/readFile.js" />
-        <option value="$PROJECT_DIR$/part3/src/3.6/writeFile.js" />
         <option value="$PROJECT_DIR$/part3/src/3.6.1/readme2.txt" />
         <option value="$PROJECT_DIR$/part3/src/3.6.1/async.js" />
         <option value="$PROJECT_DIR$/part3/src/3.6.1/sync.js" />
@@ -239,13 +248,16 @@
         <option value="$PROJECT_DIR$/part5/README.md" />
         <option value="$PROJECT_DIR$/part5/README.MD" />
         <option value="$PROJECT_DIR$/part4/src/4.1/server2.html" />
-        <option value="$PROJECT_DIR$/part6/README.md" />
         <option value="$PROJECT_DIR$/part6/src/routes/index.js" />
         <option value="$PROJECT_DIR$/part6/src/views/index.pug" />
-        <option value="$PROJECT_DIR$/part6/src/routes/test.js" />
+        <option value="$PROJECT_DIR$/part6/src/.gitignore" />
         <option value="$PROJECT_DIR$/part6/src/routes/users.js" />
         <option value="$PROJECT_DIR$/part6/src/app.js" />
-        <option value="$PROJECT_DIR$/part6/src/.gitignore" />
+        <option value="$PROJECT_DIR$/part6/src/routes/test.js" />
+        <option value="$PROJECT_DIR$/part6/src/views/footer.pug" />
+        <option value="$PROJECT_DIR$/part6/src/views/header.pug" />
+        <option value="$PROJECT_DIR$/part6/src/views/test.pug" />
+        <option value="$PROJECT_DIR$/part6/README.md" />
       </list>
     </option>
   </component>
@@ -264,7 +276,7 @@
       <path value="$PROJECT_DIR$/part6/src/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -421,18 +433,18 @@
       <workItem from="1538665356232" duration="7649000" />
       <workItem from="1538731715739" duration="603000" />
       <workItem from="1538972974664" duration="770000" />
-      <workItem from="1538990352931" duration="3384000" />
+      <workItem from="1538990352931" duration="7581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91782000" />
+    <option name="totallyTimeSpent" value="95979000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -469,17 +481,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/folder/newfile.js" />
-    <entry file="file://$PROJECT_DIR$/part3/src/3.6.3/writeme4.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3/src/3.7/event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part3/src/3.8/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -686,16 +687,6 @@
     <entry file="file://$PROJECT_DIR$/part6/src/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/part6/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="3498">
-            <caret line="159" selection-start-line="159" selection-end-line="159" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part5/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -709,13 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part6/src/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
@@ -723,29 +707,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/routes/test.js">
+    <entry file="file://$PROJECT_DIR$/part6/src/views/error.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part6/src/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="176">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part6/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="403">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/routes/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/views/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/views/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part6/src/views/layout.pug">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-end-line="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part6/src/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
@@ -754,20 +780,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/views/error.pug">
+    <entry file="file://$PROJECT_DIR$/part6/src/views/test.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/part6/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="754">
+            <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
