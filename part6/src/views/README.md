@@ -1,5 +1,5 @@
 라우터는 test.js 파일입니다.
-extends, block 테 to스트 코드는 test.pug 파일입니다.  
+extends, block 테스트 코드는 test.pug 파일입니다.  
 
 제가 해본 테스트에서는 extends 사용 시,
 block 구문 외의 코드 삽입 시 에러가 발생됩니다.

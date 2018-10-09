@@ -76,11 +76,6 @@ patch는 새로운 기능보다는 간단한 버그 수정 시 수정한다.
 > `^`는 minor 버전까지만 설치, 업데이트가 가능하다.  
 > `~`는 patch 버전까지만 설치, 업데이트가 가능하다.
 
-version x.y.z
-x : major / y : minor / z : patch  
-^1.0.0 <= 업데이트 허용 < 2.0.0  
-~1.1.1 <= 업데이트 허용 < 1.2.0
-
 ### 기타 명령어
 + `npm outdated` : 업데이트할 수 있는 패키지 확인.
 + `npm update [package name]` : 해당 이름의 패키지 업데이트.
@@ -103,16 +98,3 @@ x : major / y : minor / z : patch
 + `cookie-parser` : 쿠키 구문 분석.
 + `express-session` : Express 프레임워크에서 세션을 관리.
 ___
-
-##### package.json 생성
-`npm init`
-##### express 프레임워크 폴더 구조 만들기
-`npm install --save-dev express-generator`
-##### express 프로젝트 생성
-`express [project name] --view=pug && cd [project name]`
-##### 추가 모듈 설치
-`npm install morgan cookie-parser express-session`
-##### 개발자 모듈 설치
-`npm install --save-dev nodemon`
-##### 프로젝트 내 모듈 설치
-`npm install`
