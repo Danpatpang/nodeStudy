@@ -197,7 +197,103 @@ commenter 컬럼이 없는 것을 볼 수 있는데 모델을 정의할 때 넣�
 ```
 
 #### 관계 정의
+1. 1:N 관계(hasMany, belongsTo)
++ User → Comment (hasMany)  
++ User ← Comment (belongsTo)
+```javascript
+//app.js
+db.User.hasMany(db.Comment, {foreignKey : 'commenter', sourceKey : 'id'});
+db.Comment.belongsTo(db.User, {foriegnKey : 'commenter', targetKey : 'id'});
+```
+
+2. 1:1 관계(hasOne, belongsTo)
++ User → Info (hasOne)  
++ User ← Info (belongsTo)
+```javascript
+db.User.hasOne(db.Info, {foreignKey: 'uesr_id', sourceKey:'id'});
+db.Info.belongsTo(db.User, {foriegnKey:'user_id', sourceKey:'id'});
+```
+3. M:N 관계(belongsToMany)
++ User → Comment (hasMany)  
++ User ← Comment (belongsTo)
+```javascript
+db.Post.belongsToMany(db.Hashtag, {through : 'PostHashing'});
+db.Hashtag.belongsToMany(db.Post, {through : 'PostHashing'});
+```
+
 #### 쿼리
+쿼리는 Promise를 반환하므로 then을 붙여 결과값을 받을 수 있다.
+async/await 문법을 사용해도 무관하다.
+
+```javascript
+// 데이터 삽입
+// Insert INTO nodejs.users (name, age, married, comment) VALUES ('zero', 24, 0, '자기소개1');
+const User = require('../models');
+User.create({
+    name : 'zero',
+    age : 24,
+    married : false,
+    comment: '자기소개1',
+});
+
+// 데이터 조회
+// SELECT * FROM nodejs.users;
+User.findAll({});
+
+// SELECT * FROM nodejs.users LIMIT 1;
+User.find({});
+
+// SELECT * FROM nodejs.users LIMIT 1 OFFSET 1;
+User.findAll({
+    limit : 1,
+    offset : 1,
+});
+
+// SELECT name, married FROM nodejs.users;
+User.findAll({
+    attributes: ['name', 'married'],
+});
+
+// SELECT name, age FROM nodejs.users WHERE married = 1 AND age > 30;
+const {User, Sequelize: {Op}} = require('../models');
+User.findAll({
+    attributes : ['name', 'age'],
+    where : {
+        married : 1,
+        age : {[Op.gt] : 30},
+    }
+});
+
+// SELECT id, name FROM nodejs.users WHERE married = 0 OR age > 30;
+const {User, Sequelize: {Op}} = require('../models');
+User.findAll({
+    attributes : ['id', 'name'],
+    where : {
+        [Op.or] : [{married : 0}, {age : {[Op.gt] : 30}}],
+    },
+});
+
+// SELECT id, name FROM nodejs.users ORDER BY age DESC;
+User.findAll({
+    attributes : ['id', 'name'],
+    order : [['age', 'DESC']],
+});
+
+// 데이터 수정
+// UPDATE nodejs.users SET comment = '바꿀 내용' WHERE id = 2;
+User.update({
+    comment : '바꿀 내용',
+    where : { id : 2 }
+});
+
+// 데이터 삭제
+// DELETE FROM nodejs.users WHERE id = 2;
+User.destroy({
+    where : { id : 2 }
+});
+```
+> 데이터를 넣을 때 MySQL의 자료형이 아닌 Sequelize 모델의 자료형으로 넣는다.
+
 ___
 #### 설치 모듈
 + `npm i sequelize`
