@@ -43,7 +43,7 @@ router.patch('/:id', function (req, res, next) {
         comment: req.body.comment,
         where : {id : req.params.id}
     })
-        .then((resuult) => {
+        .then((result) => {
             res.json(result);
         })
         .catch((err) => {
