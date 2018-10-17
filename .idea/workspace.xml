@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5419f51-8b83-49d2-866e-bfc55fcc4323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/part8/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/public/javascripts/mongoose.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/routes/comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/schemas/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/schemas/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/schemas/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part8/learn-mongoose/views/mongoose.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part9/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part9/nodebird/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part9/nodebird/views/join.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part9/nodebird/views/profile.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part7/src/routes/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/part7/src/routes/comments.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +26,8 @@
     <session id="-2126626949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -40,55 +36,59 @@
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="MD" value="9" />
-          <entry key="css" value="3" />
-          <entry key="gitignore" value="4" />
+          <entry key="MD" value="12" />
+          <entry key="css" value="4" />
+          <entry key="env" value="2" />
+          <entry key="gitignore" value="6" />
           <entry key="html" value="9" />
-          <entry key="jade" value="4" />
-          <entry key="js" value="112" />
-          <entry key="json" value="18" />
-          <entry key="md" value="8" />
+          <entry key="jade" value="7" />
+          <entry key="js" value="117" />
+          <entry key="json" value="22" />
+          <entry key="md" value="11" />
           <entry key="part3-2" value="1" />
-          <entry key="pug" value="15" />
+          <entry key="pug" value="24" />
           <entry key="rnc" value="1" />
           <entry key="ts" value="2" />
           <entry key="txt" value="16" />
-          <entry key="www" value="1" />
+          <entry key="www" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
+          <entry key="CSS" value="4" />
           <entry key="HTML" value="9" />
-          <entry key="JSON" value="18" />
-          <entry key="Jade" value="19" />
-          <entry key="JavaScript" value="112" />
-          <entry key="Markdown" value="15" />
-          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="JSON" value="22" />
+          <entry key="Jade" value="31" />
+          <entry key="JavaScript" value="120" />
+          <entry key="Markdown" value="21" />
+          <entry key="PLAIN_TEXT" value="28" />
           <entry key="RNG Compact" value="1" />
           <entry key="TypeScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="MD" value="12837" />
+          <entry key="MD" value="12864" />
           <entry key="css" value="35" />
-          <entry key="gitignore" value="54" />
+          <entry key="env" value="32" />
+          <entry key="gitignore" value="237" />
           <entry key="html" value="543" />
-          <entry key="js" value="26606" />
-          <entry key="json" value="44" />
-          <entry key="md" value="3615" />
+          <entry key="jade" value="5" />
+          <entry key="js" value="27154" />
+          <entry key="json" value="98" />
+          <entry key="md" value="4877" />
           <entry key="part3-2" value="111" />
-          <entry key="pug" value="1724" />
+          <entry key="pug" value="1845" />
           <entry key="txt" value="477" />
         </counts>
       </usages-collector>
@@ -96,11 +96,11 @@
         <counts>
           <entry key="CSS" value="35" />
           <entry key="HTML" value="548" />
-          <entry key="JSON" value="46" />
-          <entry key="Jade" value="1724" />
-          <entry key="JavaScript" value="26797" />
-          <entry key="Markdown" value="16318" />
-          <entry key="PLAIN_TEXT" value="578" />
+          <entry key="JSON" value="102" />
+          <entry key="Jade" value="1856" />
+          <entry key="JavaScript" value="27359" />
+          <entry key="Markdown" value="17585" />
+          <entry key="PLAIN_TEXT" value="793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -109,92 +109,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part7/src/views/sequelize.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="42" column="10" lean-forward="true" selection-end-line="62" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/mongoose.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part7/src/public/javascripts/sequelize.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="152" column="19" lean-forward="true" selection-end-line="169" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part7/src/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="8" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/public/javascripts/mongoose.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part7/src/routes/comments.js">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+            <state relative-caret-position="550">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/comments.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/config/config.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/app.js">
+        <entry file="file://$PROJECT_DIR$/part7/src/config/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="286">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -208,29 +141,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>admin</find>
+      <find>img-url</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/part4/src/4.2/server5.js" />
-        <option value="$PROJECT_DIR$/part4/src/4.3/restFront.css" />
-        <option value="$PROJECT_DIR$/part4/src/4.3/restFront.html" />
-        <option value="$PROJECT_DIR$/part4/src/4.3/about.html" />
-        <option value="$PROJECT_DIR$/part4/src/4.4/server1-1.js" />
-        <option value="$PROJECT_DIR$/part4/src/4.4/server1-2.js" />
-        <option value="$PROJECT_DIR$/part4/src/4.5/cluster.js" />
-        <option value="$PROJECT_DIR$/part4/question.txt" />
-        <option value="$PROJECT_DIR$/part4/src/4.3/restServer.js" />
-        <option value="$PROJECT_DIR$/part4/src/4.3/restFront.js" />
-        <option value="$PROJECT_DIR$/part4/src/form.html" />
-        <option value="$PROJECT_DIR$/part4/src/test.html" />
-        <option value="$PROJECT_DIR$/part4/src/server.js" />
-        <option value="$PROJECT_DIR$/part3/src/3.6.3/fsCreate.js" />
-        <option value="$PROJECT_DIR$/part5/README.md" />
-        <option value="$PROJECT_DIR$/part4/src/4.1/server2.html" />
-        <option value="$PROJECT_DIR$/part6/src/routes/index.js" />
         <option value="$PROJECT_DIR$/part6/src/views/index.pug" />
         <option value="$PROJECT_DIR$/part6/src/.gitignore" />
         <option value="$PROJECT_DIR$/part6/src/views/footer.pug" />
@@ -241,12 +163,8 @@
         <option value="$PROJECT_DIR$/part6/src/routes/test.js" />
         <option value="$PROJECT_DIR$/part6/src/views/test.pug" />
         <option value="$PROJECT_DIR$/part6/src/views/README.md" />
-        <option value="$PROJECT_DIR$/part5/README.MD" />
-        <option value="$PROJECT_DIR$/part6/README.md" />
         <option value="$PROJECT_DIR$/part7/src/models/user.js" />
         <option value="$PROJECT_DIR$/part7/src/config/config.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/part7/README.MD" />
         <option value="$PROJECT_DIR$/part7/src/views/sequelize.pug" />
         <option value="$PROJECT_DIR$/part7/src/app.js" />
         <option value="$PROJECT_DIR$/part7/src/routes/index.js" />
@@ -255,7 +173,6 @@
         <option value="$PROJECT_DIR$/part7/src/models/comment.js" />
         <option value="$PROJECT_DIR$/part7/src/models/index.js" />
         <option value="$PROJECT_DIR$/part8/README.MD" />
-        <option value="$PROJECT_DIR$/part8/learn-mongoose/schemas/index.js" />
         <option value="$PROJECT_DIR$/part8/learn-mongoose/schemas/comment.js" />
         <option value="$PROJECT_DIR$/part8/learn-mongoose/schemas/user.js" />
         <option value="$PROJECT_DIR$/part8/learn-mongoose/routes/index.js" />
@@ -265,6 +182,28 @@
         <option value="$PROJECT_DIR$/part8/learn-mongoose/public/javascripts/mongoose.js" />
         <option value="$PROJECT_DIR$/part8/learn-mongoose/routes/comments.js" />
         <option value="$PROJECT_DIR$/part7/src/routes/comments.js" />
+        <option value="$PROJECT_DIR$/part8/learn-mongoose/schemas/index.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/views/env" />
+        <option value="$PROJECT_DIR$/part9/nodebird/app.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/package.json" />
+        <option value="$PROJECT_DIR$/part9/nodebird/routes/page.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/views/join.pug" />
+        <option value="$PROJECT_DIR$/part9/nodebird/views/profile.pug" />
+        <option value="$PROJECT_DIR$/part9/nodebird/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/part9/nodebird/views/layout.pug" />
+        <option value="$PROJECT_DIR$/part9/nodebird/views/main.pug" />
+        <option value="$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/part9/README.md" />
+        <option value="$PROJECT_DIR$/part6/src/bin/www" />
+        <option value="$PROJECT_DIR$/part5/README.MD" />
+        <option value="$PROJECT_DIR$/part6/README.md" />
+        <option value="$PROJECT_DIR$/part6/src/views/layout.pug" />
+        <option value="$PROJECT_DIR$/part7/README.MD" />
+        <option value="$PROJECT_DIR$/part7/src/bin/www" />
+        <option value="$PROJECT_DIR$/part7/src/views/layout.jade" />
+        <option value="$PROJECT_DIR$/part8/learn-mongoose/bin/www" />
+        <option value="$PROJECT_DIR$/part8/learn-mongoose/views/layout.pug" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -278,6 +217,7 @@
     <handled-path value="$PROJECT_DIR$/part6/src/node_modules" />
     <handled-path value="$PROJECT_DIR$/part7/src/node_modules" />
     <handled-path value="$PROJECT_DIR$/part8/learn-mongoose/node_modules" />
+    <handled-path value="$PROJECT_DIR$/part9/nodebird/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -286,9 +226,10 @@
       <path value="$PROJECT_DIR$/part7/package.json" />
       <path value="$PROJECT_DIR$/part7/src/package.json" />
       <path value="$PROJECT_DIR$/part8/learn-mongoose/package.json" />
+      <path value="$PROJECT_DIR$/part9/nodebird/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
@@ -324,54 +265,25 @@
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
               <item name="part7" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part8" type="462c0819:PsiDirectoryNode" />
+              <item name="part9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
+              <item name="part9" type="462c0819:PsiDirectoryNode" />
+              <item name="nodebird" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="schemas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="part8" type="462c0819:PsiDirectoryNode" />
-              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="part9" type="462c0819:PsiDirectoryNode" />
+              <item name="nodebird" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,18 +298,18 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part8\learn-mongoose\routes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part9\nodebird" />
       <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part6\src\routes" />
       <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part6\src" />
       <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part5\src" />
       <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part7" />
-      <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part3\src\3.5.6" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JiDaecheol\Desktop\nodeStudy\part8\learn-mongoose\routes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -474,18 +386,20 @@
       <workItem from="1539366403703" duration="4994000" />
       <workItem from="1539513194026" duration="101000" />
       <workItem from="1539537378362" duration="6850000" />
-      <workItem from="1539592779170" duration="7408000" />
+      <workItem from="1539592779170" duration="8832000" />
+      <workItem from="1539770912140" duration="1653000" />
+      <workItem from="1539772572786" duration="7935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131881000" />
+    <option name="totallyTimeSpent" value="142893000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -497,7 +411,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20790021" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20776495" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -541,128 +455,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part6/src/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/views/error.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/views/footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/views/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part5/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/app.js" />
-    <entry file="file://$PROJECT_DIR$/part7/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part5/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="2574">
-            <caret line="117" column="13" selection-start-line="117" selection-start-column="13" selection-end-line="117" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/views/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/views/error.jade">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part6/src/views/test.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part6/src/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -694,34 +486,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part6/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="718">
-            <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part7/src/models/users.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/config/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/part7/src/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -733,16 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
           <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="6160">
-            <caret line="280" selection-end-line="300" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -774,25 +529,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part8/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
-            <caret line="102" column="11" lean-forward="true" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/schemas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/schemas/comment.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,45 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/mongoose.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/public/javascripts/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="770">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -871,10 +574,241 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/public/javascripts/mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="202">
+            <caret line="100" column="13" lean-forward="true" selection-end-line="121" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/part7/src/routes/comments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        <state relative-caret-position="1496">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/schemas/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/join.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/error.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/profile.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="644">
+            <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5/README.MD">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="88">
+            <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="462">
+            <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part6/src/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part7/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="105" column="15" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part7/src/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part7/src/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/config/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part7/src/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
         </state>
       </provider>
     </entry>
