@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5419f51-8b83-49d2-866e-bfc55fcc4323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/part9/nodebird/passport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part9/nodebird/passport/kakaoStrategy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part9/nodebird/passport/localStraetegy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part9/nodebird/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part9/nodebird/routes/middlewares.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part9/nodebird/routes/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part9/nodebird/routes/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part9/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/part9/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part9/nodebird/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/part9/nodebird/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part9/nodebird/models/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/part9/nodebird/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/part9/nodebird/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part9/nodebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/part9/nodebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part9/nodebird/passport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/part9/nodebird/passport/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/part9/nodebird/routes/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/part9/nodebird/routes/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part9/nodebird/views/main.pug" beforeDir="false" afterPath="$PROJECT_DIR$/part9/nodebird/views/main.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +26,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/part9/README.md">
+                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                  <state split_layout="FIRST">
+                    <first_editor relative-caret-position="238">
+                      <caret line="211" column="3" lean-forward="true" selection-start-line="211" selection-start-column="3" selection-end-line="211" selection-end-column="3" />
+                    </first_editor>
+                    <second_editor />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2126626949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
@@ -40,14 +60,14 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,11 +79,12 @@
           <entry key="gitignore" value="7" />
           <entry key="html" value="9" />
           <entry key="jade" value="7" />
-          <entry key="js" value="136" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="144" />
           <entry key="json" value="29" />
-          <entry key="md" value="14" />
+          <entry key="md" value="15" />
           <entry key="part3-2" value="1" />
-          <entry key="pug" value="24" />
+          <entry key="pug" value="31" />
           <entry key="rnc" value="1" />
           <entry key="ts" value="2" />
           <entry key="txt" value="16" />
@@ -74,10 +95,11 @@
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="9" />
+          <entry key="Image" value="1" />
           <entry key="JSON" value="29" />
-          <entry key="Jade" value="31" />
-          <entry key="JavaScript" value="139" />
-          <entry key="Markdown" value="25" />
+          <entry key="Jade" value="38" />
+          <entry key="JavaScript" value="147" />
+          <entry key="Markdown" value="26" />
           <entry key="PLAIN_TEXT" value="30" />
           <entry key="RNG Compact" value="1" />
           <entry key="TypeScript" value="2" />
@@ -91,11 +113,11 @@
           <entry key="gitignore" value="311" />
           <entry key="html" value="543" />
           <entry key="jade" value="5" />
-          <entry key="js" value="30862" />
+          <entry key="js" value="33890" />
           <entry key="json" value="292" />
-          <entry key="md" value="8305" />
+          <entry key="md" value="9562" />
           <entry key="part3-2" value="111" />
-          <entry key="pug" value="1845" />
+          <entry key="pug" value="1875" />
           <entry key="txt" value="477" />
         </counts>
       </usages-collector>
@@ -104,9 +126,9 @@
           <entry key="CSS" value="35" />
           <entry key="HTML" value="548" />
           <entry key="JSON" value="296" />
-          <entry key="Jade" value="1856" />
-          <entry key="JavaScript" value="31074" />
-          <entry key="Markdown" value="21006" />
+          <entry key="Jade" value="1886" />
+          <entry key="JavaScript" value="34119" />
+          <entry key="Markdown" value="22246" />
           <entry key="PLAIN_TEXT" value="867" />
         </counts>
       </usages-collector>
@@ -116,95 +138,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/models/hashtag.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="374">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/models/user.js">
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/uploads/me1540142221018.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/views/main.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="517">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="864">
-                <caret line="192" selection-start-line="192" selection-end-line="192" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/middlewares.js">
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/views/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="51" selection-start-column="51" selection-end-column="51" />
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/auth.js">
+        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="68" />
+            <state relative-caret-position="88">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/part9/nodebird/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="176">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/passport/localStraetegy.js">
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/node_modules/express/lib/router/layer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/passport/kakaoStrategy.js">
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/node_modules/express/lib/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="184">
+              <caret line="316" column="12" selection-start-line="316" selection-start-column="12" selection-end-line="316" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part9/nodebird/passport/index.js">
+        <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/mongoose.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="517">
+              <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part9/nodebird/views/profile.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -230,8 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/part7/src/config/config.json" />
-        <option value="$PROJECT_DIR$/part7/src/views/sequelize.pug" />
         <option value="$PROJECT_DIR$/part7/src/app.js" />
         <option value="$PROJECT_DIR$/part7/src/routes/index.js" />
         <option value="$PROJECT_DIR$/part7/src/routes/users.js" />
@@ -253,8 +266,6 @@
         <option value="$PROJECT_DIR$/part9/nodebird/views/profile.pug" />
         <option value="$PROJECT_DIR$/part9/nodebird/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/part9/nodebird/views/layout.pug" />
-        <option value="$PROJECT_DIR$/part9/nodebird/views/main.pug" />
-        <option value="$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/part6/src/bin/www" />
         <option value="$PROJECT_DIR$/part5/README.MD" />
         <option value="$PROJECT_DIR$/part6/README.md" />
@@ -273,14 +284,18 @@
         <option value="$PROJECT_DIR$/part9/nodebird/models/post.js" />
         <option value="$PROJECT_DIR$/part9/nodebird/models/hashtag.js" />
         <option value="$PROJECT_DIR$/part9/nodebird/models/user.js" />
-        <option value="$PROJECT_DIR$/part9/nodebird/passport/index.js" />
         <option value="$PROJECT_DIR$/part9/nodebird/routes/middlewares.js" />
-        <option value="$PROJECT_DIR$/part9/nodebird/routes/page.js" />
         <option value="$PROJECT_DIR$/part9/nodebird/passport/localStraetegy.js" />
         <option value="$PROJECT_DIR$/part9/nodebird/passport/kakaoStrategy.js" />
         <option value="$PROJECT_DIR$/part9/nodebird/routes/auth.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/passport/index.js" />
         <option value="$PROJECT_DIR$/part9/README.md" />
         <option value="$PROJECT_DIR$/part9/nodebird/app.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/routes/user.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/routes/page.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/part9/nodebird/views/main.pug" />
+        <option value="$PROJECT_DIR$/part9/nodebird/routes/post.js" />
       </list>
     </option>
   </component>
@@ -319,13 +334,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part8" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-mongoose" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -357,12 +409,35 @@
               <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
               <item name="part9" type="462c0819:PsiDirectoryNode" />
               <item name="nodebird" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part9" type="462c0819:PsiDirectoryNode" />
+              <item name="nodebird" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part9" type="462c0819:PsiDirectoryNode" />
+              <item name="nodebird" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="part9" type="462c0819:PsiDirectoryNode" />
+              <item name="nodebird" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,18 +538,19 @@
       <workItem from="1539770912140" duration="1653000" />
       <workItem from="1539772572786" duration="8765000" />
       <workItem from="1539789766896" duration="14000" />
-      <workItem from="1539975129909" duration="15068000" />
+      <workItem from="1539975129909" duration="15881000" />
+      <workItem from="1540137737961" duration="4758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158805000" />
+    <option name="totallyTimeSpent" value="164376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -486,7 +562,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3866944" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3866944" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -530,72 +606,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/schemas/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/views/sequelize.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="42" column="10" lean-forward="true" selection-end-line="62" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/public/javascripts/sequelize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="152" column="19" lean-forward="true" selection-end-line="169" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/mongoose.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="8" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/public/javascripts/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="202">
-            <caret line="100" column="13" lean-forward="true" selection-end-line="121" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part7/src/routes/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/schemas/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -637,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part9/nodebird/views/join.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -654,27 +657,6 @@
     <entry file="file://$PROJECT_DIR$/part9/nodebird/views/error.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/profile.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/main.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part6/src/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -683,17 +665,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part5/README.MD">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="88">
             <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -735,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part7/src/config/config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -749,13 +724,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/config/config.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -768,9 +737,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="22">
             <caret line="107" column="12" lean-forward="true" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -800,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/models/hashtag.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part9/nodebird/models/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -821,41 +780,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/part9/nodebird/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
+        <state relative-caret-position="616">
           <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/passport/index.js">
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="1298">
+          <caret line="59" selection-start-line="59" selection-end-line="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/middlewares.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="51" selection-start-column="51" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/passport/localStraetegy.js">
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/passport/localStrategy.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -866,27 +811,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/auth.js">
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/models/hashtag.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="68" />
+        <state relative-caret-position="242">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/middlewares.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/passport/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part9/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="864">
-            <caret line="192" selection-start-line="192" selection-end-line="192" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="238">
+            <caret line="211" column="3" lean-forward="true" selection-start-line="211" selection-start-column="3" selection-end-line="211" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/public/javascripts/mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/error.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part8/learn-mongoose/views/mongoose.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/profile.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/views/main.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/uploads/me1540142221018.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/part9/nodebird/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="176">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/node_modules/express/lib/router/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="316" column="12" selection-start-line="316" selection-start-column="12" selection-end-line="316" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part9/nodebird/routes/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
         </state>
       </provider>
     </entry>
