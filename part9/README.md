@@ -188,5 +188,55 @@ router.get('/kakao/callback', passport.authenticate('kakao', {
 });
 ```
 
-> failureRedirect에 접속 실패 시 어디로 이동할지가 자동으로 정해진다.
+> failureRedirect에 접속 실패 시 어디로 이동할지가 자동으로 정해진다.  
+> 카카오에서 등록한 Redirect Path와 일치해야 결과를 받아올 수 있다.
 
+### Multer
+파일을 업로드 하기 위해서 사용하는 모듈이다.
+이미지는 보통 `input[type=file]` 태그와 `form` 태그를 통해 업로드 되며
+인코딩 타입은 `multipart/form-data`로 설정한다.
+이런 형식으로 올라온 데이터는 직접 처리가 힘드므로 multipart 처리용 모듈을 사용하게 된다.  
+
+`npm install multer` : 파일 처리를 위한 모듈  
+업로드 후, 업로드된 사진 주소를 클라이언트에게 알려주어
+DB에 직접 이미지를 저장하는 것이 아닌 이미지의 주소를 저장하는 것이 일반적이다.
+
+#### Multer은 multipart 데이터를 업로드하는 라우터에 붙는 미들웨어.
+```javascript
+multer({
+    storage : multer.diskStorage({
+        destinattion(){},
+        filename(){},
+    }),
+    limits
+});
+```
+diskStorage()를 사용해 이미지가 서버 디스크에 저장되도록 한다.
+storage 속성에는 destination(파일 저장 경로)과 filename(파일 명) 등이 설정 가능하고
+limits 속성에는 최대 파일 용량 허용치(byte 단위)가 설정 가능하다.
+
+#### Multer의 미들웨어
+1. multer().single() : 하나의 파일을 올릴 때만 사용. req.file 객체 생성.
+2. multer().array() : 속성 하나에서 여러 개의 파일을 올릴 때 사용. req.files 객체 생성.
+3. multer().fields() : 여러 개의 속성에서 파일을 하나씩 올릴 때 사용. req.files 객체 생성.
+4. multer().none() : 파일을 올리지 않고 데이터만 multipart 형식으로 전송될 때 사용.
+
+> 다른 데이터들은 req.body 객체에 저장된다.  
+> array(), fields()의 차이점에 주의해야 한다.  
+
+```javascript
+if (hashtags) {
+    // 이해 어려움!!!!    
+    // 검색 후 없으면 생성?
+    const result = await Promise.all(hashtags.map(tag => Hashtag.findOrCreate({
+        where: {title: tag.slice(1).toLowerCase()}
+    })));
+    // 추가
+    await post.addHashtags(result.map(r => r[0]));
+    }
+```
+> 해당 부분은 추가적인 이해 필요... (질문)
+
+`app.use('/img', express.static(path.join(__dirname, 'uploads))`  
+업로드한 파일을 제공할 라우터로 연결.
+uploads 폴더 내 파일들이 /img 주소로 제공된다.
