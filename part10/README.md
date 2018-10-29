@@ -26,7 +26,37 @@ API와 웹 API 서버의 차이
 > 공개해도 되는 정보들은 API로 만들어 API를 통해 가져가게 하는 것이 좋다.
 
 ### 프로젝트 구조
-[](./structure.png)
+
+![](https://github.com/Danpatpang/nodeStudy/blob/master/part10/structure.png?raw=true)
+
+클라이언트는 가입, 게시글을 작성하며 게시글, 해시태그, 사용자 정보 등을 JSON 형식으로 API를 통해 받아온다.
+
+- domain 모델 정의
+
+```javascript
+{
+    validate: {
+        unknownType() {
+            console.log(this.type, this.type !== 'free', this.type !== 'premium');
+            if (this.type !== 'free' && this.type !== 'premium') {
+                throw new Error('type이 free 또는 premium이어야 함.');
+            }
+        }
+    },
+    timestamps: true,
+    paranoid: true
+}
+```
+
+> validate는 데이터를 추가로 검증하는 속성이다.
+
+`uuid(universally unique identifier)` : 범용 고유 식별자로 고유한 문자열을 만들고 싶을 때 사용.
+완벽하게 고유하지는 않지만 실제 사용 시 중복될 가능성은 거의 없다.  
+
+응답을 하는 곳과 도메인이 다르면 CORS(Cross-Origin Resource Sharing) 에러가 발생할 수 있다.
+다음의 문제를 해결하기 위해서 미리 허용할 도메인을 등록하는 것이 좋다.
+단, 서버에서 서버로 요청을 보내는 경우에는 CORS 묹제가 발생하지 않는다.
+
 ### JWT
 
 ### 호출서버
