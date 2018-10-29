@@ -6,93 +6,80 @@ app.set('port', process.env.PORT || 3000);
 app.engine('handlebars', handlebars({defaultLayout: 'main'}));
 app.set('view engine', handlebars);
 
-//2.1.1
-var every = (req, res) => {
-    console.log(`every`);
-};
-
-//2.1.2
-var everyPost = (req, res) => {
-    console.log(`everyPost`);
-};
-
-//2.1.4.2
-var everyErrorHandler = (req, res) => {
-    res.status(404);
-    res.render('home', {msg: '입력실패'});
-    console.log(`everyErrorHandler`);
-};
-
-// 2.1.5
-var noHandlers = (req, res, next) => {
-    console.log(`noHandlers`);
+app.use(function every(req, res, next) {
+    console.log(`##every`);
     next();
-};
+});
 
-// 2.1.6
-var throwError = (req, res, next) => {
-    console.log(`throwError`);
-    res.status(404);
-    var err = new Error('Error test');
-    next(err);
-};
+app.post('/', function everyPost(req, res, next) {
+    console.log(`##everyPost`);
+    next();
+});
 
-// 2.1.7
-function analyzeError(err) {
-    console.log(`analyzeError ${err}`);
-}
-
-var errorHandler1 = (err, req, res) => {
-    console.log(`errorHandler1`);
-    if (err) {
-        res.status(404);
-        analyzeError(err);
-    }
-};
-// 2.1.8
-function errorLog(err) {
-    console.log(`errorLog ${err}`);
-}
-
-var errorHandler2 = (err, req, res) => {
-    console.log(`errorHandler2`);
-    if (err) {
-        errorHandler1(err);
-        errorLog(err);
-    }
-};
-
-// 2.1.3
-app.get('/users', (req, res) => {
+app.get(function getUsers(req, res, next) {
+    console.log(`##getUsers`);
+    res.type('application/json');
     res.json({users: ['a', 'b', 'c', 'd']});
-    console.log('/users');
-});
-// 2.1.4
-app.post('/users', (req, res) => {
-    if(req.users in ['e', 'f', 'g']) {
-        var random = Math.floor(Math.random() * 10);
-        if(random === 0) {
-            everyErrorHandler(req, res);
-        } else {
-            res.render('home', {msg: '입력성공'});
-            console.log(`/users`);
-        }
-    }
-});
-
-app.all('/error', throwError);
-app.post('/*', everyPost);
-app.all('/*', every);
-
-app.use(noHandlers);
-app.use((err, req, res) => {
-    errorHandler1(err);
+    // res.end(JSON.stringify({users : ['a', 'b', 'c', 'd']}));
     next();
 });
-app.use((err, req, res) => {
-    errorHandler2(err);
+
+var random = null;
+// 입력에 따라 random 설정.
+app.post('/users', function postUsers(req, res, next) {
+    console.log(`##postUsers`);
+    if (random) {
+        res.type(`application/json`);
+        res.json({msg: "입력성공"});
+    } else {
+        throw Error(`입력실패`);
+    }
+    next();
+});
+
+app.use(function noHandlers(req, res, next) {
+    console.log(`##noHandlers`);
+    throw Error('404 - Not Found');
+});
+
+app.use('/error', function throwError(err, req, res, next) {
+    console.log(`##throwError`);
+    throw Error('404 - Not Found');
+});
+
+app.use(function errorHandler1(err, req, res, next) {
+    console.log(`##errorHandler1`);
+    // analyzeError(err);
+    // 다시 에러를 넘겨야 다음 에러가 호출
+    next(err);
+});
+
+app.use(function errorHandler2(err, req, res, next) {
+    console.log(`##errorHandler2`);
+    // analyzeError(err);
+    // 다시 에러를 넘겨야 다음 에러가 호출
+    console.error(err);
+    next(err);
+});
+
+app.use(function everyErrorHandler(err, req, res, next) {
+    console.log(`##everyErrorHandler`);
+    res.status(404);
+    res.json({msg: err.message});
 });
 
 app.listen(app.get('port'), () => {
     console.log(`Express port ${app.get('port')}`);
 });
+
+/*
+* 일반적으로 post가 next하는 경우가 없다.
+* 사용자에게 소스코드의 에러위치를 보여주는 것은 좋지 않다.
+* 에러 메시지만 보내도 사용자에게 보여주지 않는다.
+*
+* 다른 녀석들은 파라미터가 3개이지만 에러는 4개를 받는다.
+* 와일드 카드를 함부로 타지 말 것.
+* 선언 위치 굉장히 조심할 것.
+*
+* 에러가 발생하면 바로 에러 이벤트로 넘어가고 다른 이벤트로 넘기고 싶으면 또 다른 에러를 발생시키거나 기존 에러를 넘김.
+ */
