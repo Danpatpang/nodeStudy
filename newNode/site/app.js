@@ -1,13 +1,6 @@
 var express = require('express');
 var handlebars = require('express-handlebars');
-
-var fortunes = [
-    "1번 포츈",
-    "2번 포츈",
-    "3번 포츈",
-    "4번 포츈",
-    "5번 포츈"
-];
+var fortune = require('./lib/fortune');
 
 var app = express();
 app.set('port', process.env.PORT || 3000);
@@ -21,8 +14,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    var randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
-    res.render('about', {fortune : randomFortune});
+    res.render('about', {fortune : fortune.getFortune()});
 })
 
 // 404 page
